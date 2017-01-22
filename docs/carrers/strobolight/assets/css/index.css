@@ -273,16 +273,16 @@ div.flex-wrap > div.flex-content {
   width: 50%;
 }
 div.flex-wrap > div.flex-content > dl {
-  padding: 30px 45px;
-  margin: 0 2px 0 0;
-}
-div.flex-wrap > div.flex-content:first-child > dl {
-  border: 12px solid rgba(37, 174, 189, 0.15);
-  border-right: 1px solid rgba(255,255,255,1);
+  padding: 30px 35px;
+  margin: 0 0 0 2px;
 }
 div.flex-wrap > div.flex-content:last-child > dl {
-  border: 12px solid rgba(0,0,0,0.08);
+  border: 12px solid rgba(37, 174, 189, 0.15);
   border-left: 1px solid rgba(255,255,255,1);
+}
+div.flex-wrap > div.flex-content:first-child > dl {
+  border: 12px solid rgba(0,0,0,0.08);
+  border-right: 1px solid rgba(255,255,255,1);
 }
 div.flex-wrap > div.flex-content > dl > dt > img {
   height: 20px;
@@ -405,17 +405,17 @@ li.section-reasons-sympathy > ul > li:last-child{
     width: 100%;
   }
   div.flex-wrap > div.flex-content > dl {
-    margin: 0 0 2px 0;
-  }
-  div.flex-wrap > div.flex-content:first-child > dl {
-    border: 12px solid rgba(37, 174, 189, 0.15);
-    border-bottom: 1px solid rgba(255,255,255,1);
-    padding: 15px 15px 5px;
+    margin: 2px 0 0 0;
   }
   div.flex-wrap > div.flex-content:last-child > dl {
-    border: 12px solid rgba(0,0,0,0.08);
+    border: 12px solid rgba(37, 174, 189, 0.15);
     border-top: 1px solid rgba(255,255,255,1);
     padding: 5px 15px 15px;
+  }
+  div.flex-wrap > div.flex-content:first-child > dl {
+    border: 12px solid rgba(0,0,0,0.08);
+    border-bottom: 1px solid rgba(255,255,255,1);
+    padding: 15px 15px 5px;
   }
   div.flex-wrap > div.flex-content > dl > dt > img {
     margin: 20px auto;
