@@ -1,0 +1,7 @@
+.contents .row div{
+  background-color: #ccc;
+  margin: 10px auto;
+}
+.contents .row div > p{
+  background-color: #eee;
+}
